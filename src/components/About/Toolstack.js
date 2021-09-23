@@ -17,9 +17,9 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiJupyter />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
       </Col>

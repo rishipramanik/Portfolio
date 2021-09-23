@@ -42,48 +42,48 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Frontend Developer Intern [Flash Tech]"
-              date="July 2021 - September 2021"
+              title="Senior Support Engineer"
+              date="Oct 2020 - Current"
               content={[
-                "Worked on the development of an E-commerce website",
-                "Redesigned Wigme.com and created features to enhance the user experience and optimized designs for smartphones.",
-                " Translated designs and wireframes into a highly responsive user interface and reusable components using React.js.",
-                "Used Back-End APIs to display data using the Custom Components, library Components, and Redux.",
+                "Managing Executing multiple SQL queries to fetch fetch/manipulate data such as Join and Stored Procedures. through multiple portals to deliver media files for multiple Broadcasters.",
+                "Executing multiple SQL queries to fetch fetch/manipulate data such as Join and Stored Procedures..",
+                "Providing reports by joining multiple tables in SQL to spreadsheet..",
+                "Finding and providing root cause analysis for multiple product defects through logs.",
                 "Used JIRA as the bug tracking system to track and maintain the history of bugs/issues on an everyday basis.",
               ]}
             />
-            <h3 className="resume-title">Extracurricular Activities</h3>
+            {/* <h3 className="resume-title">Extracurricular Activities</h3> */}
             <Resumecontent
-              title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
+              title="Team Lead Customer Success"
               content={[
-                "Worked on building front-end UI design using HTML5, CSS3, JavaScript jQuery, and building API routes using Node and express.js.",
+                "Patching and configuration of MS SQL and MS Server environment to carry out testing and replication of potential bugs to escalate cases to developers and the QA team.",
+                "Providing demo to clients through physical and virtual meet.",
               ]}
             />
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="IMSC MATHS AND COMPUTING [BIT Mesra, Ranchi] "
-              date="2018 - Present"
-              content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
+              title="Masters of Computer Applications [University of Mysore, Mysore] "
+              date="2021 - Present"
+              content={[]} //[`CGPA: ${cgpa} (Till ${sem}th Sem)`]
             />
 
-            <h3 className="resume-title">Publications</h3>
+             <h3 className="resume-title"></h3>
+            <Resumecontent
+              title="Bachelors of Computer Application [Sikkim Manipal University, Sikkim]"
+              date="2016 - 2019"
+              content={[]}
+            /> 
+
+            <h3 className="resume-title">Languages I Speak</h3>
             <Resumecontent
               title=""
               content={[
-                "Article entitled An Overlapping Sliding Window and Combined Feature based Emotion Recognition System for EEG Signals publised in Emerald Publication;10.1108/ACI-05-2021-0130",
-              ]}
-            />
-
-            <h3 className="resume-title">Ranks and Achivements</h3>
-            <Resumecontent
-              title=""
-              content={[
-                `Current rank in Spoj ${spojRank}`,
-                `Current rank in HackerRank  ${hackerrank}`,
-                "Top Performer in Code-Break 1.0",
-                "Participant in Hack-A-Bit 2019",
+                "English [Read, Write, Speak]",
+                "Hindi [Read, Write, Speak]", //Current rank in HackerRank  ${hackerrank}
+                "Bangla [Speak]",
+                // "Participant in Hack-A-Bit 2019",
               ]}
             />
           </Col>
