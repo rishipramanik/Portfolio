@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/Soumyajit-Behera.pdf";
+import pdf from "../../Assets/Rishi-Pramanik.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -55,6 +55,7 @@ function Resume() {
             {/* <h3 className="resume-title">Extracurricular Activities</h3> */}
             <Resumecontent
               title="Team Lead Customer Success"
+              date="Apr 2016 - Aug 2020"
               content={[
                 "Patching and configuration of MS SQL and MS Server environment to carry out testing and replication of potential bugs to escalate cases to developers and the QA team.",
                 "Providing demo to clients through physical and virtual meet.",

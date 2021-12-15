@@ -21,8 +21,11 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
+        <div>
+          <h1>Coming Soon...</h1>
+        </div>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
@@ -30,9 +33,9 @@ function Projects() {
               description="Personal image gallery to upload and save as favorite build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
               link="https://react-image-gallery-87d0f.web.app/"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -81,7 +84,7 @@ function Projects() {
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
               link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

@@ -10,8 +10,9 @@ import {
   DiGit,
   DiCss3,
   DiMysql,
+  DiHtml5,
 } from "react-icons/di";
-import { SiPytorch, SiTensorflow, SiFirebase } from "react-icons/si";
+import { SiPytorch, SiTensorflow, SiFirebase, SiPostgresql } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -26,6 +27,9 @@ function Techstack() {
         <DiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -34,12 +38,9 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
-      </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTensorflow />
-      </Col> */}
+        <SiPostgresql />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
