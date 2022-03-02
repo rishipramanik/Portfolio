@@ -45,6 +45,7 @@ function Resume() {
               title="Senior Support Engineer"
               date="Oct 2020 - Current"
               content={[
+                "Involved in the creation of new software and work closely with software engineers and development teams to identify and resolve potential issues in the development stage.",
                 "Managing Executing multiple SQL queries to fetch fetch/manipulate data such as Join and Stored Procedures. through multiple portals to deliver media files for multiple Broadcasters.",
                 "Executing multiple SQL queries to fetch fetch/manipulate data such as Join and Stored Procedures..",
                 "Providing reports by joining multiple tables in SQL to spreadsheet..",
