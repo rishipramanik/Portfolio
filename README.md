@@ -3,7 +3,7 @@
   <a href="http://rishi.p" target="_blank">Rishi.P</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="./Images/readme-img.png" />
 </div>
 
 <br/>
